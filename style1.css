@@ -1,0 +1,131 @@
+body
+{
+	background-image: url(Thomb-Sveshtari-2.jpg);
+        background-size: cover ;
+        background-repeat: no-repeat, repeat;
+        width: 800px; /*за да има преглегност от различни по големина дисплеи*/
+	margin: 0 auto; /*за да центрираме сайта*/
+	}
+        
+    #nadolo
+    {position: absolute; /*за да не влияе на другото меню*/
+     top: 0;
+     left: -500px;
+     width: 510px;
+     height: 510px;
+     text-align: center;
+     
+        
+          }
+      #nadolo:hover
+      {top: 0;
+          left: 0;
+      }
+    #blok, #Menu p, #nadolo
+            {
+            border-radius: 20px 0;
+            border-right: solid 1px black;
+            border-bottom: solid 1px black;
+            box-shadow: 20px 20px 20px #000;
+            -moz-transition: 1s;
+            -o-transition: 1s;
+            -webkit-transition: 1s;
+            -ms-transition: 1s;
+            -transition: 1s;}
+ a {text-decoration: none;}/*да не подчертава линковете*/
+ img {border: none;}
+           
+       #Menu p:hover
+       { box-shadow: 10px 10px 10px #000;
+         -moz-transform: rotate(5deg) ;
+         -o-transform: rotate(5deg) ;
+         -webkit-transform: rotate(5deg) ;
+         -ms-transform: rotate(5deg) ;
+         -transform: rotate(5deg) ;       }
+        #Menu
+        { position: relative;
+            width: 1000px; /*1000px ако е 100% автоматично разширяване на сайта на 100% от екрана*/
+            height: 60px;
+             /* overflow-y: hidden; когато излиэа от вертикалата да е скрито*/
+            margin: 0 auto; /*позициониране в средата*/   
+            }
+        #galeriq 
+
+        
+        
+        #Menu p 
+        {float:  left;/*менюто започва от ляво*/
+           text-align: center; /*центрираме го в ляво*/
+           margin-right: 5px;/*пауза между бутоните*/
+           background-color: chocolate;
+           width: 200px; /*широчина на всеки бутон*/
+           height: 25px;
+           cursor: pointer;}
+        #blok
+        {  position: relative;
+            width: 100px;
+            height: 50px;
+            margin: 50px auto;
+            background-color: brown;
+            border-radius: 20px 0;
+            border-right: solid 1px black;
+            border-bottom: solid 1px black;
+            box-shadow: 20px 20px 20px #000;
+            -moz-transition: 1s;
+            -o-transition: 1s;
+            -webkit-transition: 1s;
+            -ms-transition: 1s;
+            -transition: 1s;
+        }
+        #blok:hover { box-shadow: 10px 10px 10px #000;
+         -moz-transform: scale(1, 2);
+         -o-transform: scale(1, 2);
+         -webkit-transform: scale(1, 2);
+         -ms-transform: scale(1, 2);
+         -transform: scale(1, 2);}
+        #blok:active
+        {-moz-transform: translate(0, 40px);
+         -o-transform: translate(0, 40px);
+         -webkit-transition: translate(0, 40px);
+         -ms-transform: translate(0, 40px);
+         -transform: translate(0, 40px); }
+
+#container
+{       width: 800px; /*за да има преглегност от различни по големина дисплеи*/
+	margin: 0 auto; /*за да центрираме сайта*/
+}
+
+#head
+{
+	width: 840px;
+	height: 70px;
+	background-color: #87CEEB;
+	
+	
+}
+
+
+
+#body
+{
+	width: 100%; /*автоматично разширяване на сайта на 100% от екрана*/
+	height: 300px;
+	background-color: 	#A52A2A;
+	
+}
+
+#footer
+{
+	width: 100%; /*автоматично разширяване на сайта на 100% от екрана*/
+	height: 20px;
+	background-color: #E4EB26;
+	
+}
+.logo
+{
+	width:200px;
+	height: 300px;
+	margin-left: 600px;
+	background-color: yellow;
+	
+}

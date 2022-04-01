@@ -1,0 +1,286 @@
+body
+{
+	background-image: url(Thomb-Sveshtari-2.jpg);
+        background-size: cover ;
+        background-repeat: no-repeat, repeat;
+        background-attachment: fixed;
+        width: 800px; /*за да има преглегност от различни по големина дисплеи*/
+	margin: 0 auto; /*за да центрираме сайта*/
+	}
+        
+    #nadolo
+    {position: absolute; /*за да не влияе на другото меню*/
+     top: 0;
+     left: -500px;
+     width: 510px;
+     height: 510px;
+     text-align: center;
+     
+        
+          }
+    #nadolo:hover
+      {top: 0;
+          left: 0;
+      }
+    #Menu p, #nadolo
+            {
+            border-radius: 20px 0;
+            border-right: solid 1px black;
+            border-bottom: solid 1px black;
+            box-shadow: 20px 20px 20px #000;
+            -moz-transition: 1s;
+            -o-transition: 1s;
+            -webkit-transition: 1s;
+            -ms-transition: 1s;
+            -transition: 1s;}
+ a {text-decoration: none;}/*да не подчертава линковете*/
+ img {border: none;}
+           
+       #Menu p:hover
+       { box-shadow: 10px 10px 10px #000;
+         -moz-transform: rotate(5deg) ;
+         -o-transform: rotate(5deg) ;
+         -webkit-transform: rotate(5deg) ;
+         -ms-transform: rotate(5deg) ;
+         -transform: rotate(5deg) ;       }
+        #Menu
+        { position: relative;
+            width: 1500px; /*1000px ако е 100% автоматично разширяване на сайта на 100% от екрана*/
+            height: 60px;             /* overflow-y: hidden; когато излиэа от вертикалата да е скрито*/
+            margin: -15px -100px; /*позициониране в средата*/   
+            }
+       
+        #Menu p 
+        {float:  left;/*менюто започва от ляво*/
+           text-align: center; /*центрираме текста в бутоните*/
+           font-size: 35px;
+           font-style: italic;
+           font-weight: bold;
+           font-family: cursive;
+           margin-right: 15px;/*пауза между бутоните*/
+           background-color: chocolate;
+           width: 250px; /*широчина на всеки бутон*/
+           height: 50px;
+           cursor: pointer;}
+     
+        #blok
+        {  position: relative;
+           box-sizing: border-box;
+            width: 600px;
+            height: 430px;
+            border: solid chocolate 10px;
+           margin: -420px 430px;            
+            border-radius: 40px 0;
+            box-shadow: 20px 20px 20px #000;
+            
+            padding: 5px;
+            -moz-transition: 1s;
+            -o-transition: 1s;
+            -webkit-transition: 1s;
+            -ms-transition: 1s;
+            -transition: 1s;
+        }
+        #blok:hover { box-shadow: 5px 5px 5px #000;
+        }
+        
+        #header
+            {position: relative;
+             font: bold 14px Helvetica, Arial, Sans-Serif;
+             text-shadow: 1px 1px black, 
+                2px 2px black, 
+                3px 3px black;
+            width: 100%; /*1000px ако е 100% автоматично разширяване на сайта на 100% от екрана*/
+            height: 80px;
+            box-sizing: border-box;
+            border: wheat 10px;                
+                        /* overflow-y: hidden; когато излиэа от вертикалата да е скрито*/
+             line-height: 0.8;
+            margin: 0 auto; 
+            border-left: 1px dotted gray;
+            border-top: solid 1px grey;
+            border-radius: 20px 0;
+            box-shadow: -10px -10px 10px #000,
+                           10px 10px -10px #000;
+            -moz-transition: 3s;
+            -o-transition: 3s;
+            -webkit-transition: 3s;
+            -ms-transition: 3s;
+            -transition: 3s;}
+            
+        #header:hover
+        {
+            box-shadow: -5px -5px 5px #000;
+         -moz-transform: scale(1, 1.1);
+         -o-transform: scale(1, 1.1);
+         -webkit-transform: scale(1, 1.1);
+         -ms-transform: scale(1, 1.1);
+         -transform: scale(1, 1.1);
+         text-shadow: 1px 1px grey, 
+                2px 2px grey, 
+                3px 3px grey, 
+                4px 4px grey, 
+                5px 5px grey, 
+                6px 6px grey;
+            
+        }
+        
+        #text
+        {
+            white-space: pre-wrap;
+            text-align: left;/*центрираме го в ляво*/
+           margin-left: -100px;
+           margin-top: 120px;
+           width: 400px; /*широчина на текст*/
+           height: 400px;
+           font-size: 32px;
+           box-sizing: border-box;
+           border: wheat 10px;                
+                        /* overflow-y: hidden; когато излиэа от вертикалата да е скрито*/
+             line-height: 0.8;
+            line-break: normal;
+            
+            background-color: rgba(255, 255, 255, 0.5);
+           
+            border-left: 1px dotted gray;
+            border-top: solid 1px grey;
+            border-radius: 20px 0;
+            box-shadow: -10px -10px 10px #000,
+                           10px 10px -10px #000;           
+                      
+        }
+        #text2_1
+        {
+            white-space: pre-wrap;
+            text-align: left;/*центрираме го в ляво*/
+           margin-left: 420px;
+           margin-top: -120px;
+           width: 600px; /*широчина на текст*/
+           height: 380px;
+           font-size: 25px;
+           box-sizing: border-box;
+           border: wheat 10px;                
+                        /* overflow-y: hidden; когато излиэа от вертикалата да е скрито*/
+             line-height: 0.8;
+            line-break: normal;
+            
+            background-color: rgba(255, 255, 255, 0.5);
+           
+             
+        }
+         #text2_2
+        {
+            white-space: pre-wrap;
+            text-align: left;/*центрираме го в ляво*/
+           margin-left: -180px;
+           margin-top: 0px;
+           width: 1200px; /*широчина на текст*/
+           height: 850px;
+           font-size: 25px;
+           box-sizing: border-box;
+           border: wheat 10px;                
+                        /* overflow-y: hidden; когато излиэа от вертикалата да е скрито*/
+             line-height: 0.8;
+            line-break: normal;
+            
+            background-color: rgba(255, 255, 255, 0.5);
+           
+            border-left: 1px dotted gray;
+            border-top: solid 1px grey;
+            border-radius: 20px 0;
+            box-shadow: -10px -10px 10px #000,
+                           10px 10px -10px #000;   
+        }
+        #text3_1
+        {
+           white-space: pre-wrap;
+            text-align: left;/*центрираме го в ляво*/
+           margin-left: 420px;
+           margin-top: -120px;
+           width: 600px; /*широчина на текст*/
+           height: 380px;
+           font-size: 25px;
+           box-sizing: border-box;
+           border: wheat 10px;                
+                        /* overflow-y: hidden; когато излиэа от вертикалата да е скрито*/
+             line-height: 0.8;
+            line-break: normal;
+            
+            background-color: rgba(255, 255, 255, 0.5); 
+        }
+        #text3_2
+        {white-space: pre-wrap;
+            text-align: left;/*центрираме го в ляво*/
+           margin-left: -180px;
+           margin-top: 0px;
+           width: 1200px; /*широчина на текст*/
+           height: 400px;
+           font-size: 25px;
+           box-sizing: border-box;
+           border: wheat 10px;                
+                        /* overflow-y: hidden; когато излиэа от вертикалата да е скрито*/
+             line-height: 0.8;
+            line-break: normal;
+            
+            background-color: rgba(255, 255, 255, 0.5);}
+        #text4_1
+        {white-space: pre-wrap;
+            text-align: left;/*центрираме го в ляво*/
+           margin-left: 420px;
+           margin-top: -120px;
+           width: 600px; /*широчина на текст*/
+           height: 380px;
+           font-size: 25px;
+           box-sizing: border-box;
+           border: wheat 10px;                
+                        /* overflow-y: hidden; когато излиэа от вертикалата да е скрито*/
+             line-height: 0.8;
+            line-break: normal;
+            
+            background-color: rgba(255, 255, 255, 0.5); 
+            
+        }
+        #text4_2
+        {white-space: pre-wrap;
+            text-align: left;/*центрираме го в ляво*/
+           margin-left: -180px;
+           margin-top: 0px;
+           width: 1200px; /*широчина на текст*/
+           height: 800px;
+           font-size: 25px;
+           box-sizing: border-box;
+           border: wheat 10px;                
+                        /* overflow-y: hidden; когато излиэа от вертикалата да е скрито*/
+             line-height: 0.8;
+            line-break: normal;
+            
+            background-color: rgba(255, 255, 255, 0.5);}
+            
+        
+        #pic2
+        {margin-left: -180px; 
+          margin-top: 120px;
+            width: 100%; /*автоматично разширяване на сайта на 100% от екрана*/
+	height: 70px;}
+	#pic3
+        {margin-left: -180px; 
+          margin-top: 120px;
+            width: 100%; /*автоматично разширяване на сайта на 100% от екрана*/
+	height: 70px;}
+            #header2
+            {position: absolute;
+                top: 50px; left: 600px;
+            width: 100%; /*1000px ако е 100% автоматично разширяване на сайта на 100% от екрана*/
+            height: 30px;
+           color: black; 
+          text-decoration: underline;
+          font-size: 20px;
+          margin: 0 auto;
+                  }
+       #nachalo
+       {font: black;}
+       #select
+       {font-weight: bold;
+        text-decoration: none;
+        color: black;
+           
+       }
